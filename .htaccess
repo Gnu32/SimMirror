@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^uploads/ / [R,L]
+RewriteRule ^data/ / [R,L]
+
+RewriteRule ^([0-9a-f]+)$ /?f=$1 [L]
+RewriteRule ^delete/([0-9a-f]+)/([0-9a-f]+)$ /?del=$1&password=$2 [R,L]

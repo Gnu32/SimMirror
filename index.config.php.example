@@ -1,0 +1,24 @@
+<?php
+
+// ======
+// CONFIG
+// ======
+
+define('AUTH_DBKEY','#####');
+define('AUTH_PASSWORDSALT','#####');
+define('AUTH_ADMIN','###');
+
+define('WHITELIST_EXTENSIONS', '@\.(zip|rar|7z)$@i');
+define('BLACKLIST_ADFLY', '@^(https?://)?(www\.)?(adf\.ly|(9|u)\.bb|(j|q)\.gs|adcraft\.co|mc\.cm|ad\.cx)@i');
+
+define('DIR_DATA', 'data/');
+define('DIR_FILES', 'uploads/');
+
+define('FILENAME_DB','data.db');
+define('FILENAME_HASHES','hashes.db');
+define('FILE_DB', DIR_DATA.FILENAME_DB);
+define('FILE_HASHES', DIR_DATA.FILENAME_HASHES);
+
+ini_set('max_upload_filesize', 32 * 1024 * 1024);
+
+?>

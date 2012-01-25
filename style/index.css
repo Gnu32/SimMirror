@@ -1,0 +1,106 @@
+body {
+    background: url('common/img/lines.horizontal.2x.png') #00f;
+    font-family: Trebuchet MS, sans-serif;
+    margin: 0px;
+    padding: 32px;
+}
+
+a {
+    text-decoration: none;
+    background: #000;
+    color: #0af;
+    font-variant: small-caps;
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+
+hr {
+    border: 1px dotted #fa0;
+}
+
+body > header {
+    border-radius: 32px 32px 0px 0px;
+    background: #fa0 url('img/header.bg.png');
+    font-family: Lucida Sans, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 20px #fa0;
+}
+
+body > header > div {
+    background: url('img/header.bg2.png') top right no-repeat;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-left: 16px;
+}
+
+body > article {
+    background: #000;
+    color: #fff;
+    overflow: auto;
+}
+
+.button, .canvas, .progress {
+    margin: 16px;
+    padding: 16px;
+}
+
+.button, .progress {
+    text-align: center;
+    background: #000;
+    color: #fa0;
+    border: 2px dashed #fa0;
+}
+
+    .button:hover {
+        background: #fa0;
+        color: #000;
+        border-color: #000;
+        cursor: pointer;
+    }
+
+    #form_upload input {
+        position: absolute;
+        top: -1000px;
+    }
+
+    #form_upload.rules > h1 {
+        display: none;
+    }
+
+    #form_upload #rules li {
+        margin: 10px 0;
+    }
+
+body > footer {
+    background-color: #fa0;
+    line-height: 32px;
+    border-radius: 0px 0px 10px 10px;
+    bottom: 0px;
+    margin: 0px !important;
+    font-size: small;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px #fa0;
+}
+
+
+#window_drophelper {
+    background: rgba(100,100,100,0.9);
+    color: #fff;
+    text-align: center;
+}
+
+    #window_drophelper > h1 {
+        margin: 5%;
+        border: 5px dotted #fff;
+        font-size: 64px;
+        line-height: 200px;
+    }
+
+.error {
+    font-weight: bold;
+    color: #f00 !important;
+    border-color: #f00;
+    font-style: italic;
+}
